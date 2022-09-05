@@ -1,7 +1,7 @@
 import numpy as np
 import jax.numpy as jnp
 from jax import grad
-from micrograd import Tensor
+from mediumgrad import Tensor
 
 def _is_close(t1, t2, eps=1e-4):
     return (np.abs(t1-t2) < eps).all()

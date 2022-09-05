@@ -1,4 +1,4 @@
-from micrograd import Tensor
+from mediumgrad import Tensor
 import numpy as np
 
 class Module:
